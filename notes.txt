@@ -1,0 +1,5 @@
+namesspaces:
+  - can redifine "keywords" by creating a namesspace
+  - if i create my own namesspace i can prevent naming conflicts with other libraries
+    - for ex i can redefine cout with my own namespace called britt
+      - britt::cout -> does something different than std::cout

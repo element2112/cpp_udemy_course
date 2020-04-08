@@ -1,15 +1,25 @@
 
 #include <iostream>
 
+using namespace std; // use entire std namespace
+
+// or
+
+/* 
+using std::cout;
+using std::cin;
+using std::endl;
+*/
+
 int main(int argc, char *argv[]) {
 
   int input;
 
-  std::cout << "Enter your favorite number between 1 and 100\n";
+  cout << "Enter your favorite number between 1 and 100\n";
 
-  std::cin >> input;
+  cin >> input;
 
-  std::cout << "You typed " << input << " as your favorite number" << std::endl;
+  cout << "You typed " << input << " as your favorite number" << std::endl;
 
 
   return 0;
