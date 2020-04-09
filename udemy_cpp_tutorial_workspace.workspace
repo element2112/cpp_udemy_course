@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="udemy_cpp_tutorial_workspace" Database="" Version="10000">
+  <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
+  <Project Name="primitive_types" Path="primitive_types/primitive_types.project" Active="No"/>
+  <Project Name="sizeof_operator" Path="sizeof_operator/sizeof_operator.project" Active="No"/>
+  <Project Name="arrays" Path="arrays/arrays.project" Active="No"/>
+  <Project Name="vectors" Path="vectors/vectors.project" Active="No"/>
+  <Project Name="type_casting" Path="type_casting/type_casting.project" Active="No"/>
+  <Project Name="relational_ops" Path="relational_ops/relational_ops.project" Active="No"/>
+  <Project Name="section_8_challenge" Path="section_8_challenge/section_8_challenge.project" Active="No"/>
+  <Project Name="strings" Path="strings/strings.project" Active="Yes"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="arrays" ConfigName="Debug"/>
+      <Project Name="primitive_types" ConfigName="Debug"/>
+      <Project Name="Project1" ConfigName="Debug"/>
+      <Project Name="relational_ops" ConfigName="Debug"/>
+      <Project Name="section_8_challenge" ConfigName="Debug"/>
+      <Project Name="sizeof_operator" ConfigName="Debug"/>
+      <Project Name="strings" ConfigName="Debug"/>
+      <Project Name="type_casting" ConfigName="Debug"/>
+      <Project Name="vectors" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Project1" ConfigName="Release"/>
+      <Project Name="primitive_types" ConfigName="Release"/>
+      <Project Name="sizeof_operator" ConfigName="Release"/>
+      <Project Name="arrays" ConfigName="Release"/>
+      <Project Name="vectors" ConfigName="Release"/>
+      <Project Name="type_casting" ConfigName="Release"/>
+      <Project Name="relational_ops" ConfigName="Release"/>
+      <Project Name="section_8_challenge" ConfigName="Release"/>
+      <Project Name="strings" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
