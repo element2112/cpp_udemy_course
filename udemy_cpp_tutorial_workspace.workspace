@@ -8,7 +8,8 @@
   <Project Name="type_casting" Path="type_casting/type_casting.project" Active="No"/>
   <Project Name="relational_ops" Path="relational_ops/relational_ops.project" Active="No"/>
   <Project Name="section_8_challenge" Path="section_8_challenge/section_8_challenge.project" Active="No"/>
-  <Project Name="strings" Path="strings/strings.project" Active="Yes"/>
+  <Project Name="strings" Path="strings/strings.project" Active="No"/>
+  <Project Name="Functions" Path="Functions/Functions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="strings" ConfigName="Debug"/>
       <Project Name="type_casting" ConfigName="Debug"/>
       <Project Name="vectors" ConfigName="Debug"/>
+      <Project Name="Functions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="relational_ops" ConfigName="Release"/>
       <Project Name="section_8_challenge" ConfigName="Release"/>
       <Project Name="strings" ConfigName="Release"/>
+      <Project Name="Functions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
