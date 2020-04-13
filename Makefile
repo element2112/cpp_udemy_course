@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ strings - Debug ]----------"
-	@cd "strings" && "$(MAKE)" -f  "strings.mk"
+	@echo "----------Building project:[ scope - Debug ]----------"
+	@cd "scope" && "$(MAKE)" -f  "scope.mk"
 clean:
-	@echo "----------Cleaning project:[ strings - Debug ]----------"
-	@cd "strings" && "$(MAKE)" -f  "strings.mk" clean
+	@echo "----------Cleaning project:[ scope - Debug ]----------"
+	@cd "scope" && "$(MAKE)" -f  "scope.mk" clean

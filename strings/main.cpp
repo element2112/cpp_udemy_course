@@ -71,5 +71,45 @@ int main()
         
     for (int c : s9)
         cout << c << endl;
+        
+    // substrings
+    string test {"This is a test"};
+    
+    cout << test.substr(0,4) << endl;
+    cout << test.substr(5,2) << endl;
+    cout << test.substr(10,4) << endl;
+    
+    cout << test.find("This") << endl; // 0
+    cout << test.find("is") << endl; // 2 (because the first "is" is in "this"
+    cout << test.find("test") << endl; // 10
+    cout << test.find('e') << endl; // 5
+    cout << test.find("is", 4) << endl; // 5
+    cout << test.find("XX") << endl; // not there so returns string::npos
+    
+    // remove chars
+    cout << test.erase(0,5) << endl; // is a test
+    cout << test.erase(5,4) << endl; // is a
+    test.clear(); // empty string
+    
+    string test2 {"Frank"};
+    
+    cout << test2.length() << endl;
+    
+    // other concat
+    
+    test2 += " James";
+    cout << test2 << endl;
+    
+    // ************** IO WITH STRINGS ************************/
+    
+    // get line
+    string test3;
+    getline(cin, test3);
+    cout << test3 << endl;
+    
+    // get line until 'x'
+    string test4;
+    getline(cin, test4, 'x');
+    cout << test4 << endl;
     
 }

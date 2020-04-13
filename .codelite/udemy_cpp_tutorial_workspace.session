@@ -4,9 +4,9 @@
   <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\udemy_cpp_tutorial_workspace.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\arrays\main.cpp" Name="FileName"/>
-      <int Value="1" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
+      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\strings\main.cpp" Name="FileName"/>
+      <int Value="85" Name="FirstVisibleLine"/>
+      <int Value="109" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
