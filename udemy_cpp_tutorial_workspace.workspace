@@ -10,7 +10,9 @@
   <Project Name="section_8_challenge" Path="section_8_challenge/section_8_challenge.project" Active="No"/>
   <Project Name="strings" Path="strings/strings.project" Active="No"/>
   <Project Name="Functions" Path="Functions/Functions.project" Active="No"/>
-  <Project Name="functions_and_arrays" Path="functions_and_arrays/functions_and_arrays.project" Active="Yes"/>
+  <Project Name="functions_and_arrays" Path="functions_and_arrays/functions_and_arrays.project" Active="No"/>
+  <Project Name="pass_by_ref" Path="pass_by_ref/pass_by_ref.project" Active="No"/>
+  <Project Name="scope" Path="scope/scope.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -25,6 +27,8 @@
       <Project Name="vectors" ConfigName="Debug"/>
       <Project Name="Functions" ConfigName="Debug"/>
       <Project Name="functions_and_arrays" ConfigName="Debug"/>
+      <Project Name="pass_by_ref" ConfigName="Debug"/>
+      <Project Name="scope" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -39,6 +43,8 @@
       <Project Name="strings" ConfigName="Release"/>
       <Project Name="Functions" ConfigName="Release"/>
       <Project Name="functions_and_arrays" ConfigName="Release"/>
+      <Project Name="pass_by_ref" ConfigName="Release"/>
+      <Project Name="scope" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
