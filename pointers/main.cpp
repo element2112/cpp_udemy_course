@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
     
-    pointers_exe();
-    
+//    pointers_exe();
+//    memory_allocation();
+    pointer_arithmetic();
     return 0;
 }

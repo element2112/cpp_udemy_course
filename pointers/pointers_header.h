@@ -4,5 +4,8 @@
 
 void pointers_exe();
 
+void memory_allocation();
+
+void pointer_arithmetic();
 
 #endif

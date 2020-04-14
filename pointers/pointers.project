@@ -93,6 +93,7 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="memory_alloc.cpp"/>
     <File Name="pointers_.cpp"/>
     <File Name="pointers_header.h"/>
     <File Name="main.cpp"/>

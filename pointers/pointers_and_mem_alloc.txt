@@ -1,1 +1,1 @@
-Debug/main.cpp.o Debug/pointers_.cpp.o
+Debug/memory_alloc.cpp.o Debug/main.cpp.o Debug/pointers_.cpp.o

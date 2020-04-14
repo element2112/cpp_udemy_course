@@ -62,7 +62,7 @@ AS       := "C:/Program Files/mingw-w64/mingw64/bin/as.exe"
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/pointers_.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/pointers_.cpp$(ObjectSuffix) 
 
 
 
@@ -93,6 +93,12 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix): memory_alloc.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/memory_alloc.cpp$(DependSuffix) -MM memory_alloc.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/pointers/memory_alloc.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/memory_alloc.cpp$(PreprocessSuffix): memory_alloc.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/memory_alloc.cpp$(PreprocessSuffix) memory_alloc.cpp
+
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/pointers/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
