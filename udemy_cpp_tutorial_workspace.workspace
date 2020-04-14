@@ -9,10 +9,10 @@
   <Project Name="relational_ops" Path="relational_ops/relational_ops.project" Active="No"/>
   <Project Name="section_8_challenge" Path="section_8_challenge/section_8_challenge.project" Active="No"/>
   <Project Name="strings" Path="strings/strings.project" Active="No"/>
-  <Project Name="Functions" Path="Functions/Functions.project" Active="No"/>
+  <Project Name="Functions" Path="Functions/Functions.project" Active="Yes"/>
   <Project Name="functions_and_arrays" Path="functions_and_arrays/functions_and_arrays.project" Active="No"/>
   <Project Name="pass_by_ref" Path="pass_by_ref/pass_by_ref.project" Active="No"/>
-  <Project Name="scope" Path="scope/scope.project" Active="Yes"/>
+  <Project Name="scope" Path="scope/scope.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>

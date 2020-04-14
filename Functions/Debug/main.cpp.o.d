@@ -1,1 +1,3 @@
-Debug/main.cpp.o: main.cpp
+Debug/main.cpp.o: main.cpp function_stuff.h
+
+function_stuff.h:

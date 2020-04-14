@@ -93,6 +93,10 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="recursion.cpp"/>
+    <File Name="inline_functions.cpp"/>
+    <File Name="gen_functions.cpp"/>
+    <File Name="function_stuff.h"/>
     <File Name="main.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>
