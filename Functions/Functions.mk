@@ -62,7 +62,7 @@ AS       := "C:/Program Files/mingw-w64/mingw64/bin/as.exe"
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/recursion.cpp$(ObjectSuffix) $(IntermediateDirectory)/gen_functions.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/inline_functions.cpp$(ObjectSuffix) 
 
 
 
@@ -93,11 +93,29 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/recursion.cpp$(ObjectSuffix): recursion.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/recursion.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/recursion.cpp$(DependSuffix) -MM recursion.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/Functions/recursion.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/recursion.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/recursion.cpp$(PreprocessSuffix): recursion.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/recursion.cpp$(PreprocessSuffix) recursion.cpp
+
+$(IntermediateDirectory)/gen_functions.cpp$(ObjectSuffix): gen_functions.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/gen_functions.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/gen_functions.cpp$(DependSuffix) -MM gen_functions.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/Functions/gen_functions.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/gen_functions.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/gen_functions.cpp$(PreprocessSuffix): gen_functions.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/gen_functions.cpp$(PreprocessSuffix) gen_functions.cpp
+
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/Functions/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
+
+$(IntermediateDirectory)/inline_functions.cpp$(ObjectSuffix): inline_functions.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/inline_functions.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/inline_functions.cpp$(DependSuffix) -MM inline_functions.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/Functions/inline_functions.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/inline_functions.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/inline_functions.cpp$(PreprocessSuffix): inline_functions.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/inline_functions.cpp$(PreprocessSuffix) inline_functions.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)
