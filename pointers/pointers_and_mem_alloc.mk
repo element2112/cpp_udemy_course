@@ -13,7 +13,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=torchgirl
-Date                   :=14/04/2020
+Date                   :=15/04/2020
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe"
 SharedObjectLinkerName :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe" -shared -fPIC
@@ -62,7 +62,7 @@ AS       := "C:/Program Files/mingw-w64/mingw64/bin/as.exe"
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/pointers_.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/L_R_vals.cpp$(ObjectSuffix) $(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/references.cpp$(ObjectSuffix) $(IntermediateDirectory)/pointers_.cpp$(ObjectSuffix) $(IntermediateDirectory)/reference_pass.cpp$(ObjectSuffix) 
 
 
 
@@ -93,6 +93,12 @@ PreBuild:
 ##
 ## Objects
 ##
+$(IntermediateDirectory)/L_R_vals.cpp$(ObjectSuffix): L_R_vals.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/L_R_vals.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/L_R_vals.cpp$(DependSuffix) -MM L_R_vals.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/pointers/L_R_vals.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/L_R_vals.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/L_R_vals.cpp$(PreprocessSuffix): L_R_vals.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/L_R_vals.cpp$(PreprocessSuffix) L_R_vals.cpp
+
 $(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix): memory_alloc.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/memory_alloc.cpp$(DependSuffix) -MM memory_alloc.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/pointers/memory_alloc.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/memory_alloc.cpp$(ObjectSuffix) $(IncludePath)
@@ -105,11 +111,23 @@ $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
+$(IntermediateDirectory)/references.cpp$(ObjectSuffix): references.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/references.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/references.cpp$(DependSuffix) -MM references.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/pointers/references.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/references.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/references.cpp$(PreprocessSuffix): references.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/references.cpp$(PreprocessSuffix) references.cpp
+
 $(IntermediateDirectory)/pointers_.cpp$(ObjectSuffix): pointers_.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/pointers_.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/pointers_.cpp$(DependSuffix) -MM pointers_.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/pointers/pointers_.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/pointers_.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/pointers_.cpp$(PreprocessSuffix): pointers_.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/pointers_.cpp$(PreprocessSuffix) pointers_.cpp
+
+$(IntermediateDirectory)/reference_pass.cpp$(ObjectSuffix): reference_pass.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/reference_pass.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/reference_pass.cpp$(DependSuffix) -MM reference_pass.cpp
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/pointers/reference_pass.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/reference_pass.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/reference_pass.cpp$(PreprocessSuffix): reference_pass.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/reference_pass.cpp$(PreprocessSuffix) reference_pass.cpp
 
 
 -include $(IntermediateDirectory)/*$(DependSuffix)

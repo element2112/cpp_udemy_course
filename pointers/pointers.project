@@ -93,6 +93,9 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
+    <File Name="L_R_vals.cpp"/>
+    <File Name="references.cpp"/>
+    <File Name="reference_pass.cpp"/>
     <File Name="memory_alloc.cpp"/>
     <File Name="pointers_.cpp"/>
     <File Name="pointers_header.h"/>

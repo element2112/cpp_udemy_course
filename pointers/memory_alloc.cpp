@@ -29,7 +29,7 @@ void const_and_pointers()
     int low_score3 {65};
     // data pointed  pointed to by the pointer is constant and cannot be changed
     // the pointer itself cannot change and point somewhere else
-    const int *const score_ptr { &high_score };
+    const int *const score_ptr3 { &high_score };
     
     //    *score_ptr = 86; ERROR
     //    score_ptr = &low_score; ERROR

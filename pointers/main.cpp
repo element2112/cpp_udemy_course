@@ -8,6 +8,9 @@ int main()
     
 //    pointers_exe();
 //    memory_allocation();
-    pointer_arithmetic();
+//    pointer_arithmetic();
+//    reference_pass_ex1();
+    ref();
+//    l_r();
     return 0;
 }

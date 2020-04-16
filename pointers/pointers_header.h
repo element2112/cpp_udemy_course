@@ -8,4 +8,10 @@ void memory_allocation();
 
 void pointer_arithmetic();
 
+void reference_pass_ex1();
+
+void ref();
+
+void l_r();
+
 #endif
