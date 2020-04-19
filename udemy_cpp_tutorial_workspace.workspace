@@ -13,7 +13,12 @@
   <Project Name="functions_and_arrays" Path="functions_and_arrays/functions_and_arrays.project" Active="No"/>
   <Project Name="pass_by_ref" Path="pass_by_ref/pass_by_ref.project" Active="No"/>
   <Project Name="scope" Path="scope/scope.project" Active="No"/>
-  <Project Name="pointers_and_mem_alloc" Path="pointers/pointers.project" Active="Yes"/>
+  <Project Name="pointers_and_mem_alloc" Path="pointers/pointers.project" Active="No"/>
+  <Project Name="test" Path="test/test.project" Active="No"/>
+  <Project Name="OOP_basic" Path="OOP/OOP.project" Active="No"/>
+  <Project Name="public_private" Path="public_private/public_private.project" Active="No"/>
+  <Project Name="member_methods" Path="member_methods/member_methods.project" Active="No"/>
+  <Project Name="member_methods_2" Path="member_methods_2/member_methods_2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -31,6 +36,11 @@
       <Project Name="pass_by_ref" ConfigName="Debug"/>
       <Project Name="scope" ConfigName="Debug"/>
       <Project Name="pointers_and_mem_alloc" ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
+      <Project Name="OOP_basic" ConfigName="Debug"/>
+      <Project Name="public_private" ConfigName="Debug"/>
+      <Project Name="member_methods" ConfigName="Debug"/>
+      <Project Name="member_methods_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -48,6 +58,11 @@
       <Project Name="pass_by_ref" ConfigName="Release"/>
       <Project Name="scope" ConfigName="Release"/>
       <Project Name="pointers_and_mem_alloc" ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
+      <Project Name="OOP_basic" ConfigName="Release"/>
+      <Project Name="public_private" ConfigName="Release"/>
+      <Project Name="member_methods" ConfigName="Release"/>
+      <Project Name="member_methods_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

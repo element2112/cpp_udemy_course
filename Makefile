@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ pointers_and_mem_alloc - Debug ]----------"
-	@cd "pointers" && "$(MAKE)" -f  "pointers_and_mem_alloc.mk"
+	@echo "----------Building project:[ member_methods_2 - Debug ]----------"
+	@cd "member_methods_2" && "$(MAKE)" -f  "member_methods_2.mk"
 clean:
-	@echo "----------Cleaning project:[ pointers_and_mem_alloc - Debug ]----------"
-	@cd "pointers" && "$(MAKE)" -f  "pointers_and_mem_alloc.mk" clean
+	@echo "----------Cleaning project:[ member_methods_2 - Debug ]----------"
+	@cd "member_methods_2" && "$(MAKE)" -f  "member_methods_2.mk" clean
