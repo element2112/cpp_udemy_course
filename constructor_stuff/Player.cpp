@@ -8,19 +8,30 @@
 //}
 //
 
-Player::Player(std::string name_val)
-{
-    name = name_val;
-    health = 0;
-    xp = 0;
+
+/* using constructor initialization lists */
+
+Player::Player(std::string name_val) : name{name_val}, health{0}, xp{0} {
 }
 
-Player::Player(std::string name_val, int health_val, int xp_val)
-{
-    name = name_val;
-    health = health_val;
-    xp = xp_val;
+Player::Player(std::string name_val, int health_val, int xp_val) : name{name_val}, health{0}, xp{0} {
 }
+
+/* old way below */
+
+//Player::Player(std::string name_val)
+//{
+//    name = name_val;
+//    health = 0;
+//    xp = 0;
+//}
+
+//Player::Player(std::string name_val, int health_val, int xp_val)
+//{
+//    name = name_val;
+//    health = health_val;
+//    xp = xp_val;
+//}
 
 void Player::set_name(std::string name_val)
 {
