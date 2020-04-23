@@ -18,7 +18,10 @@
   <Project Name="OOP_basic" Path="OOP/OOP.project" Active="No"/>
   <Project Name="public_private" Path="public_private/public_private.project" Active="No"/>
   <Project Name="member_methods" Path="member_methods/member_methods.project" Active="No"/>
-  <Project Name="member_methods_2" Path="member_methods_2/member_methods_2.project" Active="Yes"/>
+  <Project Name="member_methods_2" Path="member_methods_2/member_methods_2.project" Active="No"/>
+  <Project Name="constructors_destructors" Path="constructors_destructors/constructors_destructors.project" Active="No"/>
+  <Project Name="constructor_stuff" Path="constructor_stuff/constructor_stuff.project" Active="No"/>
+  <Project Name="constructor_initialization_lists" Path="constructor_initialization_lists/constructor_initialization_lists.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -41,6 +44,9 @@
       <Project Name="public_private" ConfigName="Debug"/>
       <Project Name="member_methods" ConfigName="Debug"/>
       <Project Name="member_methods_2" ConfigName="Debug"/>
+      <Project Name="constructors_destructors" ConfigName="Debug"/>
+      <Project Name="constructor_stuff" ConfigName="Debug"/>
+      <Project Name="constructor_initialization_lists" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -63,6 +69,9 @@
       <Project Name="public_private" ConfigName="Release"/>
       <Project Name="member_methods" ConfigName="Release"/>
       <Project Name="member_methods_2" ConfigName="Release"/>
+      <Project Name="constructors_destructors" ConfigName="Release"/>
+      <Project Name="constructor_stuff" ConfigName="Release"/>
+      <Project Name="constructor_initialization_lists" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
