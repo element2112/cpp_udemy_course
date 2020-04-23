@@ -43,21 +43,49 @@ public:
 // "steals" the data and then nulls out the source pointer
 Move::Move(Move &&source) : data{source.data} {
     source.data = nullptr;
+    std::cout << "Move constructor - moving resource: " << *data << std::endl;
 }
 
-Move::Move(const Move &source)
+Move::Move(const Move &source) : Move(*source.data)
+{
+    std::cout << "Copy constructor - deep copy for: " << *data << std::endl;
+}
+
+Move::Move(int d)
 {
     data = new int;
-    *data = *source.data;
+    *data = d;
+    std::cout << "Constructor for: " << d << std::endl;
+}
+
+Move::~Move()
+{
+    if (data != nullptr)
+    {
+        std::cout << "Destructor freeing data for: " << *data << std::endl;
+    }
+    else
+    {
+        std::cout << "Destructor freeing data for nullptr" << std::endl;
+    }
+    
+    delete data;
 }
 
 int main()
 {
-    Vector<Move> vec;
+    std::vector<Move> vec;
     
     // Move constructors will be called for the temp r-values
-    vec.push_back(Move{10}); // Move is an r-value here
-    vec.push_back(Move{20}); // Move is an r-value here
+    vec.push_back(Move{10}); // Move is an r-value here. Theres no variable name, so its a temporary object
+    
+    vec.push_back(Move{20}); // Move is an r-value here. Theres no variable name, so its a temporary object
+    vec.push_back(Move{30}); // Move is an r-value here. Theres no variable name, so its a temporary object
+    vec.push_back(Move{40}); // Move is an r-value here. Theres no variable name, so its a temporary object
+    vec.push_back(Move{50}); // Move is an r-value here. Theres no variable name, so its a temporary object
+    vec.push_back(Move{60}); // Move is an r-value here. Theres no variable name, so its a temporary object
+    vec.push_back(Move{70}); // Move is an r-value here. Theres no variable name, so its a temporary object
+    vec.push_back(Move{80}); // Move is an r-value here. Theres no variable name, so its a temporary object
     
     return 0;
 }
