@@ -21,7 +21,12 @@
   <Project Name="member_methods_2" Path="member_methods_2/member_methods_2.project" Active="No"/>
   <Project Name="constructors_destructors" Path="constructors_destructors/constructors_destructors.project" Active="No"/>
   <Project Name="constructor_stuff" Path="constructor_stuff/constructor_stuff.project" Active="No"/>
-  <Project Name="constructor_initialization_lists" Path="constructor_initialization_lists/constructor_initialization_lists.project" Active="Yes"/>
+  <Project Name="copy_constructors" Path="copy_constructors/copy_constructors.project" Active="No"/>
+  <Project Name="shallow_copy" Path="shallow_copy/shallow_copy.project" Active="No"/>
+  <Project Name="deep_copy" Path="deep_copy/deep_copy.project" Active="No"/>
+  <Project Name="move_semantics" Path="move_semantics/move_semantics.project" Active="No"/>
+  <Project Name="const_with_classes" Path="const_with_classes/const_with_classes.project" Active="No"/>
+  <Project Name="static_members" Path="static_members/static_members.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -46,7 +51,12 @@
       <Project Name="member_methods_2" ConfigName="Debug"/>
       <Project Name="constructors_destructors" ConfigName="Debug"/>
       <Project Name="constructor_stuff" ConfigName="Debug"/>
-      <Project Name="constructor_initialization_lists" ConfigName="Debug"/>
+      <Project Name="copy_constructors" ConfigName="Debug"/>
+      <Project Name="shallow_copy" ConfigName="Debug"/>
+      <Project Name="deep_copy" ConfigName="Debug"/>
+      <Project Name="move_semantics" ConfigName="Debug"/>
+      <Project Name="const_with_classes" ConfigName="Debug"/>
+      <Project Name="static_members" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -71,7 +81,12 @@
       <Project Name="member_methods_2" ConfigName="Release"/>
       <Project Name="constructors_destructors" ConfigName="Release"/>
       <Project Name="constructor_stuff" ConfigName="Release"/>
-      <Project Name="constructor_initialization_lists" ConfigName="Release"/>
+      <Project Name="copy_constructors" ConfigName="Release"/>
+      <Project Name="shallow_copy" ConfigName="Release"/>
+      <Project Name="deep_copy" ConfigName="Release"/>
+      <Project Name="move_semantics" ConfigName="Release"/>
+      <Project Name="const_with_classes" ConfigName="Release"/>
+      <Project Name="static_members" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

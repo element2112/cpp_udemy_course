@@ -11,14 +11,11 @@ private:
     int xp;
     
 public:
-    Player()
-    {
-        name = "None";
-        health = 100;
-        xp = 3;
-    }
-    Player(std::string name_val);
-    Player(std::string name_val, int health_val, int xp_val);
+//    Player(); // just an FYI you can implement these here in .h file
+//    Player(std::string name_val);
+
+    // this single default constructor does the work for several constructors
+    Player(std::string name_val = "None", int health_val = 0, int xp_val = 0);
     void set_name(std::string name_val);
     std::string get_name();
 };

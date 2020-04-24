@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ constructor_stuff - Debug ]----------"
-	@cd "constructor_stuff" && "$(MAKE)" -f  "constructor_stuff.mk"
+	@echo "----------Building project:[ static_members - Debug ]----------"
+	@cd "static_members" && "$(MAKE)" -f  "static_members.mk"
 clean:
-	@echo "----------Cleaning project:[ constructor_stuff - Debug ]----------"
-	@cd "constructor_stuff" && "$(MAKE)" -f  "constructor_stuff.mk" clean
+	@echo "----------Cleaning project:[ static_members - Debug ]----------"
+	@cd "static_members" && "$(MAKE)" -f  "static_members.mk" clean
