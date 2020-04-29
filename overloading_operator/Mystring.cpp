@@ -86,3 +86,46 @@ Mystring &Mystring::operator =(Mystring &&rhs)
     
     return *this; // return current object
 }
+
+/* the below are NOT member functions */
+
+// equality
+bool operator==(const Mystring &lhs, const Mystring &rhs)
+{
+    return (std::strcmp(lhs.str, rhs.str) == 0);
+}
+
+// make lower case
+Mystring operator-(const Mystring &obj)
+{
+    char *buff = new char[std::strlen(obj.str) + 1];
+    std::strcpy(buff, obj.str);
+    
+    for (size_t i=0; i < std::strlen(buff); i++)
+    {
+        buff[i] = std::tolower(buff[i]);
+    }
+    
+    Mystring temp {buff};
+    
+    delete [] buff;
+    
+    return temp;
+}
+
+// concat
+Mystring operator+(const Mystring &rhs, const Mystring &lhs)
+{
+    int n {std::strlen(rhs.str) + std::strlen(lhs.str) + 1};
+    
+    char *buff = new char[n];
+    
+    std::strcpy(buff, lhs.str);
+    std::strcat(buff, rhs.str);
+    
+    Mystring temp{buff};
+    
+    delete [] buff;
+    
+    return temp;
+}

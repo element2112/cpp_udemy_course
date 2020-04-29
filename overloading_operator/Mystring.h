@@ -7,6 +7,11 @@
 
 class Mystring
 {
+    // these could also be implemented by public methods it seems
+    // seems to be the standard to use friend of class
+    friend bool operator==(const Mystring &lhs, const Mystring &rhs);
+    friend Mystring operator-(const Mystring &obj);
+    friend Mystring operator+(const Mystring &lfs, const Mystring &rhs);
 private:
     char *str; // c-style string pointer to a char[] 
     
@@ -17,11 +22,8 @@ public:
     Mystring(Mystring &&source); // move constructor
     ~Mystring(); // destructor
     
-    // overloaded copy assignment operator (l-values)
     Mystring &operator=(const Mystring &rhs);
-    
-    // overloaded move assignment operator (r-values)
-    Mystring &operator =(Mystring &&rhs);
+    Mystring &operator=(Mystring &&rhs);
 
     void display() const;
     int get_length() const;

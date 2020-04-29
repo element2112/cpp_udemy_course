@@ -2,29 +2,7 @@
 <Session Name="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\udemy_cpp_tutorial_workspace.workspace">
   <int Value="0" Name="m_selectedTab"/>
   <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\udemy_cpp_tutorial_workspace.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\overloading_operator\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="15" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\overloading_operator\Mystring.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="17" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\overloading_operator\Mystring.cpp" Name="FileName"/>
-      <int Value="20" Name="FirstVisibleLine"/>
-      <int Value="35" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-  </TabInfoArray>
+  <TabInfoArray Name="TabInfoArray"/>
   <SerializedObject Name="m_breakpoints">
     <long Value="3" Name="Count"/>
     <SerializedObject Name="Breakpoint0">

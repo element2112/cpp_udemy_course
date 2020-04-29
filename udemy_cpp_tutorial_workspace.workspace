@@ -30,7 +30,8 @@
   <Project Name="structs_vs_classes" Path="structs_vs_classes/structs_vs_classes.project" Active="No"/>
   <Project Name="friends_of_a_class" Path="friends_of_a_class/friends_of_a_class.project" Active="No"/>
   <Project Name="challenge_13_movies" Path="challenge_13_movies/challenge_13_movies.project" Active="No"/>
-  <Project Name="overloading_operator" Path="overloading_operator/overloading_operator.project" Active="Yes"/>
+  <Project Name="overloading_operators_member_functions" Path="overloading_operator/overloading_operator.project" Active="No"/>
+  <Project Name="overloading_operators_global_non_member_functions" Path="overloading_operators_global_non_member_functions/overloading_operators_global_non_member_functions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -64,7 +65,8 @@
       <Project Name="structs_vs_classes" ConfigName="Debug"/>
       <Project Name="friends_of_a_class" ConfigName="Debug"/>
       <Project Name="challenge_13_movies" ConfigName="Debug"/>
-      <Project Name="overloading_operator" ConfigName="Debug"/>
+      <Project Name="overloading_operators_member_functions" ConfigName="Debug"/>
+      <Project Name="overloading_operators_global_non_member_functions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -98,7 +100,8 @@
       <Project Name="structs_vs_classes" ConfigName="Release"/>
       <Project Name="friends_of_a_class" ConfigName="Release"/>
       <Project Name="challenge_13_movies" ConfigName="Release"/>
-      <Project Name="overloading_operator" ConfigName="Release"/>
+      <Project Name="overloading_operators_member_functions" ConfigName="Release"/>
+      <Project Name="overloading_operators_global_non_member_functions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
