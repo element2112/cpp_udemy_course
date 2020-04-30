@@ -1,5 +1,6 @@
 
 #include <iostream>
+#include "Mystring.h"
 
 using namespace std; // use entire std namespace
 

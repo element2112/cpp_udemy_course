@@ -31,7 +31,10 @@
   <Project Name="friends_of_a_class" Path="friends_of_a_class/friends_of_a_class.project" Active="No"/>
   <Project Name="challenge_13_movies" Path="challenge_13_movies/challenge_13_movies.project" Active="No"/>
   <Project Name="overloading_operators_member_functions" Path="overloading_operator/overloading_operator.project" Active="No"/>
-  <Project Name="overloading_operators_global_non_member_functions" Path="overloading_operators_global_non_member_functions/overloading_operators_global_non_member_functions.project" Active="Yes"/>
+  <Project Name="overloading_operators_global_non_member_functions" Path="overloading_operators_global_non_member_functions/overloading_operators_global_non_member_functions.project" Active="No"/>
+  <Project Name="overloading_streams" Path="overloading_streams/overloading_streams.project" Active="No"/>
+  <Project Name="inheritence_basic" Path="inheritence_basic/inheritence_basic.project" Active="No"/>
+  <Project Name="ProtectedMembersClassAccess" Path="ProtectedMembersClassAccess/ProtectedMembersClassAccess.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -67,6 +70,9 @@
       <Project Name="challenge_13_movies" ConfigName="Debug"/>
       <Project Name="overloading_operators_member_functions" ConfigName="Debug"/>
       <Project Name="overloading_operators_global_non_member_functions" ConfigName="Debug"/>
+      <Project Name="overloading_streams" ConfigName="Debug"/>
+      <Project Name="inheritence_basic" ConfigName="Debug"/>
+      <Project Name="ProtectedMembersClassAccess" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -102,6 +108,9 @@
       <Project Name="challenge_13_movies" ConfigName="Release"/>
       <Project Name="overloading_operators_member_functions" ConfigName="Release"/>
       <Project Name="overloading_operators_global_non_member_functions" ConfigName="Release"/>
+      <Project Name="overloading_streams" ConfigName="Release"/>
+      <Project Name="inheritence_basic" ConfigName="Release"/>
+      <Project Name="ProtectedMembersClassAccess" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
