@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ BaseClass_initialization - Debug ]----------"
-	@cd "BaseClass_initialization" && "$(MAKE)" -f  "BaseClass_initialization.mk"
+	@echo "----------Building project:[ move_copy_constructor_inheritence - Debug ]----------"
+	@cd "move_copy_constructor_inheritence" && "$(MAKE)" -f  "move_copy_constructor_inheritence.mk"
 clean:
-	@echo "----------Cleaning project:[ BaseClass_initialization - Debug ]----------"
-	@cd "BaseClass_initialization" && "$(MAKE)" -f  "BaseClass_initialization.mk" clean
+	@echo "----------Cleaning project:[ move_copy_constructor_inheritence - Debug ]----------"
+	@cd "move_copy_constructor_inheritence" && "$(MAKE)" -f  "move_copy_constructor_inheritence.mk" clean

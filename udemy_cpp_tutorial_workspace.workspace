@@ -36,7 +36,8 @@
   <Project Name="inheritence_basic" Path="inheritence_basic/inheritence_basic.project" Active="No"/>
   <Project Name="ProtectedMembersClassAccess" Path="ProtectedMembersClassAccess/ProtectedMembersClassAccess.project" Active="No"/>
   <Project Name="inheritence_constructor_destructor" Path="inheritence_constructor_destructor/inheritence_constructor_destructor.project" Active="No"/>
-  <Project Name="BaseClass_initialization" Path="BaseClass_initialization/BaseClass_initialization.project" Active="Yes"/>
+  <Project Name="BaseClass_initialization" Path="BaseClass_initialization/BaseClass_initialization.project" Active="No"/>
+  <Project Name="move_copy_constructor_inheritence" Path="move_copy_constructor_inheritence/move_copy_constructor_inheritence.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -77,6 +78,7 @@
       <Project Name="ProtectedMembersClassAccess" ConfigName="Debug"/>
       <Project Name="inheritence_constructor_destructor" ConfigName="Debug"/>
       <Project Name="BaseClass_initialization" ConfigName="Debug"/>
+      <Project Name="move_copy_constructor_inheritence" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -117,6 +119,7 @@
       <Project Name="ProtectedMembersClassAccess" ConfigName="Release"/>
       <Project Name="inheritence_constructor_destructor" ConfigName="Release"/>
       <Project Name="BaseClass_initialization" ConfigName="Release"/>
+      <Project Name="move_copy_constructor_inheritence" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
