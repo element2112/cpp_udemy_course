@@ -34,7 +34,9 @@
   <Project Name="overloading_operators_global_non_member_functions" Path="overloading_operators_global_non_member_functions/overloading_operators_global_non_member_functions.project" Active="No"/>
   <Project Name="overloading_streams" Path="overloading_streams/overloading_streams.project" Active="No"/>
   <Project Name="inheritence_basic" Path="inheritence_basic/inheritence_basic.project" Active="No"/>
-  <Project Name="ProtectedMembersClassAccess" Path="ProtectedMembersClassAccess/ProtectedMembersClassAccess.project" Active="Yes"/>
+  <Project Name="ProtectedMembersClassAccess" Path="ProtectedMembersClassAccess/ProtectedMembersClassAccess.project" Active="No"/>
+  <Project Name="inheritence_constructor_destructor" Path="inheritence_constructor_destructor/inheritence_constructor_destructor.project" Active="No"/>
+  <Project Name="BaseClass_initialization" Path="BaseClass_initialization/BaseClass_initialization.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -73,6 +75,8 @@
       <Project Name="overloading_streams" ConfigName="Debug"/>
       <Project Name="inheritence_basic" ConfigName="Debug"/>
       <Project Name="ProtectedMembersClassAccess" ConfigName="Debug"/>
+      <Project Name="inheritence_constructor_destructor" ConfigName="Debug"/>
+      <Project Name="BaseClass_initialization" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -111,6 +115,8 @@
       <Project Name="overloading_streams" ConfigName="Release"/>
       <Project Name="inheritence_basic" ConfigName="Release"/>
       <Project Name="ProtectedMembersClassAccess" ConfigName="Release"/>
+      <Project Name="inheritence_constructor_destructor" ConfigName="Release"/>
+      <Project Name="BaseClass_initialization" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

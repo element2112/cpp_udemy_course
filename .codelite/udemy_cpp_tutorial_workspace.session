@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\udemy_cpp_tutorial_workspace.workspace">
-  <int Value="1" Name="m_selectedTab"/>
+  <int Value="0" Name="m_selectedTab"/>
   <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\udemy_cpp_tutorial_workspace.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\overloading_streams\Mystring.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="3" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\overloading_streams\Mystring.cpp" Name="FileName"/>
-      <int Value="90" Name="FirstVisibleLine"/>
-      <int Value="68" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\overloading_streams\main.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="13" Name="CurrentLine"/>
+      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\ProtectedMembersClassAccess\main.cpp" Name="FileName"/>
+      <int Value="31" Name="FirstVisibleLine"/>
+      <int Value="47" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
