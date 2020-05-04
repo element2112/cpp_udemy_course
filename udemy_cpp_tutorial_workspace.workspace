@@ -37,7 +37,12 @@
   <Project Name="ProtectedMembersClassAccess" Path="ProtectedMembersClassAccess/ProtectedMembersClassAccess.project" Active="No"/>
   <Project Name="inheritence_constructor_destructor" Path="inheritence_constructor_destructor/inheritence_constructor_destructor.project" Active="No"/>
   <Project Name="BaseClass_initialization" Path="BaseClass_initialization/BaseClass_initialization.project" Active="No"/>
-  <Project Name="move_copy_constructor_inheritence" Path="move_copy_constructor_inheritence/move_copy_constructor_inheritence.project" Active="Yes"/>
+  <Project Name="move_copy_constructor_inheritence" Path="move_copy_constructor_inheritence/move_copy_constructor_inheritence.project" Active="No"/>
+  <Project Name="redefining_base_class_methods" Path="redefining_base_class_methods/redefining_base_class_methods.project" Active="No"/>
+  <Project Name="polymorphism" Path="polymorphism/polymorphism.project" Active="No"/>
+  <Project Name="base_class_ptrs_virtual_functions" Path="base_class_pointers/base_class_pointers.project" Active="No"/>
+  <Project Name="using_override" Path="using_override/using_override.project" Active="No"/>
+  <Project Name="final_specifier" Path="final_specifier/final_specifier.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -79,6 +84,11 @@
       <Project Name="inheritence_constructor_destructor" ConfigName="Debug"/>
       <Project Name="BaseClass_initialization" ConfigName="Debug"/>
       <Project Name="move_copy_constructor_inheritence" ConfigName="Debug"/>
+      <Project Name="redefining_base_class_methods" ConfigName="Debug"/>
+      <Project Name="polymorphism" ConfigName="Debug"/>
+      <Project Name="base_class_ptrs_virtual_functions" ConfigName="Debug"/>
+      <Project Name="using_override" ConfigName="Debug"/>
+      <Project Name="final_specifier" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -120,6 +130,11 @@
       <Project Name="inheritence_constructor_destructor" ConfigName="Release"/>
       <Project Name="BaseClass_initialization" ConfigName="Release"/>
       <Project Name="move_copy_constructor_inheritence" ConfigName="Release"/>
+      <Project Name="redefining_base_class_methods" ConfigName="Release"/>
+      <Project Name="polymorphism" ConfigName="Release"/>
+      <Project Name="base_class_ptrs_virtual_functions" ConfigName="Release"/>
+      <Project Name="using_override" ConfigName="Release"/>
+      <Project Name="final_specifier" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
