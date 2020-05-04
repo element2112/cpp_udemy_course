@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ final_specifier - Debug ]----------"
-	@cd "final_specifier" && "$(MAKE)" -f  "final_specifier.mk"
+	@echo "----------Building project:[ abstract_classes_as_interface - Debug ]----------"
+	@cd "abstract_classes_as_interface" && "$(MAKE)" -f  "abstract_classes_as_interface.mk"
 clean:
-	@echo "----------Cleaning project:[ final_specifier - Debug ]----------"
-	@cd "final_specifier" && "$(MAKE)" -f  "final_specifier.mk" clean
+	@echo "----------Cleaning project:[ abstract_classes_as_interface - Debug ]----------"
+	@cd "abstract_classes_as_interface" && "$(MAKE)" -f  "abstract_classes_as_interface.mk" clean

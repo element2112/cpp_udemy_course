@@ -42,7 +42,10 @@
   <Project Name="polymorphism" Path="polymorphism/polymorphism.project" Active="No"/>
   <Project Name="base_class_ptrs_virtual_functions" Path="base_class_pointers/base_class_pointers.project" Active="No"/>
   <Project Name="using_override" Path="using_override/using_override.project" Active="No"/>
-  <Project Name="final_specifier" Path="final_specifier/final_specifier.project" Active="Yes"/>
+  <Project Name="final_specifier" Path="final_specifier/final_specifier.project" Active="No"/>
+  <Project Name="base_class_references" Path="base_class_references/base_class_references.project" Active="No"/>
+  <Project Name="abstract_pure_virtual_functions" Path="pure_virtual_function/pure_virtual_function.project" Active="No"/>
+  <Project Name="abstract_classes_as_interface" Path="abstract_classes_as_interface/abstract_classes_as_interface.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -89,6 +92,9 @@
       <Project Name="base_class_ptrs_virtual_functions" ConfigName="Debug"/>
       <Project Name="using_override" ConfigName="Debug"/>
       <Project Name="final_specifier" ConfigName="Debug"/>
+      <Project Name="base_class_references" ConfigName="Debug"/>
+      <Project Name="abstract_pure_virtual_functions" ConfigName="Debug"/>
+      <Project Name="abstract_classes_as_interface" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -135,6 +141,9 @@
       <Project Name="base_class_ptrs_virtual_functions" ConfigName="Release"/>
       <Project Name="using_override" ConfigName="Release"/>
       <Project Name="final_specifier" ConfigName="Release"/>
+      <Project Name="base_class_references" ConfigName="Release"/>
+      <Project Name="abstract_pure_virtual_functions" ConfigName="Release"/>
+      <Project Name="abstract_classes_as_interface" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
