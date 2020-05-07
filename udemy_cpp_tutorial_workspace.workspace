@@ -9,10 +9,43 @@
   <Project Name="relational_ops" Path="relational_ops/relational_ops.project" Active="No"/>
   <Project Name="section_8_challenge" Path="section_8_challenge/section_8_challenge.project" Active="No"/>
   <Project Name="strings" Path="strings/strings.project" Active="No"/>
-  <Project Name="Functions" Path="Functions/Functions.project" Active="Yes"/>
+  <Project Name="Functions" Path="Functions/Functions.project" Active="No"/>
   <Project Name="functions_and_arrays" Path="functions_and_arrays/functions_and_arrays.project" Active="No"/>
   <Project Name="pass_by_ref" Path="pass_by_ref/pass_by_ref.project" Active="No"/>
   <Project Name="scope" Path="scope/scope.project" Active="No"/>
+  <Project Name="pointers_and_mem_alloc" Path="pointers/pointers.project" Active="No"/>
+  <Project Name="test" Path="test/test.project" Active="No"/>
+  <Project Name="OOP_basic" Path="OOP/OOP.project" Active="No"/>
+  <Project Name="public_private" Path="public_private/public_private.project" Active="No"/>
+  <Project Name="member_methods" Path="member_methods/member_methods.project" Active="No"/>
+  <Project Name="member_methods_2" Path="member_methods_2/member_methods_2.project" Active="No"/>
+  <Project Name="constructors_destructors" Path="constructors_destructors/constructors_destructors.project" Active="No"/>
+  <Project Name="constructor_stuff" Path="constructor_stuff/constructor_stuff.project" Active="No"/>
+  <Project Name="copy_constructors" Path="copy_constructors/copy_constructors.project" Active="No"/>
+  <Project Name="shallow_copy" Path="shallow_copy/shallow_copy.project" Active="No"/>
+  <Project Name="deep_copy" Path="deep_copy/deep_copy.project" Active="No"/>
+  <Project Name="move_semantics" Path="move_semantics/move_semantics.project" Active="No"/>
+  <Project Name="const_with_classes" Path="const_with_classes/const_with_classes.project" Active="No"/>
+  <Project Name="static_members" Path="static_members/static_members.project" Active="No"/>
+  <Project Name="structs_vs_classes" Path="structs_vs_classes/structs_vs_classes.project" Active="No"/>
+  <Project Name="friends_of_a_class" Path="friends_of_a_class/friends_of_a_class.project" Active="No"/>
+  <Project Name="challenge_13_movies" Path="challenge_13_movies/challenge_13_movies.project" Active="No"/>
+  <Project Name="overloading_operators_member_functions" Path="overloading_operator/overloading_operator.project" Active="No"/>
+  <Project Name="overloading_operators_global_non_member_functions" Path="overloading_operators_global_non_member_functions/overloading_operators_global_non_member_functions.project" Active="No"/>
+  <Project Name="overloading_streams" Path="overloading_streams/overloading_streams.project" Active="No"/>
+  <Project Name="inheritence_basic" Path="inheritence_basic/inheritence_basic.project" Active="No"/>
+  <Project Name="ProtectedMembersClassAccess" Path="ProtectedMembersClassAccess/ProtectedMembersClassAccess.project" Active="No"/>
+  <Project Name="inheritence_constructor_destructor" Path="inheritence_constructor_destructor/inheritence_constructor_destructor.project" Active="No"/>
+  <Project Name="BaseClass_initialization" Path="BaseClass_initialization/BaseClass_initialization.project" Active="No"/>
+  <Project Name="move_copy_constructor_inheritence" Path="move_copy_constructor_inheritence/move_copy_constructor_inheritence.project" Active="No"/>
+  <Project Name="redefining_base_class_methods" Path="redefining_base_class_methods/redefining_base_class_methods.project" Active="No"/>
+  <Project Name="polymorphism" Path="polymorphism/polymorphism.project" Active="No"/>
+  <Project Name="base_class_ptrs_virtual_functions" Path="base_class_pointers/base_class_pointers.project" Active="No"/>
+  <Project Name="using_override" Path="using_override/using_override.project" Active="No"/>
+  <Project Name="final_specifier" Path="final_specifier/final_specifier.project" Active="No"/>
+  <Project Name="base_class_references" Path="base_class_references/base_class_references.project" Active="No"/>
+  <Project Name="abstract_pure_virtual_functions" Path="pure_virtual_function/pure_virtual_function.project" Active="No"/>
+  <Project Name="abstract_classes_as_interface" Path="abstract_classes_as_interface/abstract_classes_as_interface.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -29,6 +62,39 @@
       <Project Name="functions_and_arrays" ConfigName="Debug"/>
       <Project Name="pass_by_ref" ConfigName="Debug"/>
       <Project Name="scope" ConfigName="Debug"/>
+      <Project Name="pointers_and_mem_alloc" ConfigName="Debug"/>
+      <Project Name="test" ConfigName="Debug"/>
+      <Project Name="OOP_basic" ConfigName="Debug"/>
+      <Project Name="public_private" ConfigName="Debug"/>
+      <Project Name="member_methods" ConfigName="Debug"/>
+      <Project Name="member_methods_2" ConfigName="Debug"/>
+      <Project Name="constructors_destructors" ConfigName="Debug"/>
+      <Project Name="constructor_stuff" ConfigName="Debug"/>
+      <Project Name="copy_constructors" ConfigName="Debug"/>
+      <Project Name="shallow_copy" ConfigName="Debug"/>
+      <Project Name="deep_copy" ConfigName="Debug"/>
+      <Project Name="move_semantics" ConfigName="Debug"/>
+      <Project Name="const_with_classes" ConfigName="Debug"/>
+      <Project Name="static_members" ConfigName="Debug"/>
+      <Project Name="structs_vs_classes" ConfigName="Debug"/>
+      <Project Name="friends_of_a_class" ConfigName="Debug"/>
+      <Project Name="challenge_13_movies" ConfigName="Debug"/>
+      <Project Name="overloading_operators_member_functions" ConfigName="Debug"/>
+      <Project Name="overloading_operators_global_non_member_functions" ConfigName="Debug"/>
+      <Project Name="overloading_streams" ConfigName="Debug"/>
+      <Project Name="inheritence_basic" ConfigName="Debug"/>
+      <Project Name="ProtectedMembersClassAccess" ConfigName="Debug"/>
+      <Project Name="inheritence_constructor_destructor" ConfigName="Debug"/>
+      <Project Name="BaseClass_initialization" ConfigName="Debug"/>
+      <Project Name="move_copy_constructor_inheritence" ConfigName="Debug"/>
+      <Project Name="redefining_base_class_methods" ConfigName="Debug"/>
+      <Project Name="polymorphism" ConfigName="Debug"/>
+      <Project Name="base_class_ptrs_virtual_functions" ConfigName="Debug"/>
+      <Project Name="using_override" ConfigName="Debug"/>
+      <Project Name="final_specifier" ConfigName="Debug"/>
+      <Project Name="base_class_references" ConfigName="Debug"/>
+      <Project Name="abstract_pure_virtual_functions" ConfigName="Debug"/>
+      <Project Name="abstract_classes_as_interface" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -45,6 +111,39 @@
       <Project Name="functions_and_arrays" ConfigName="Release"/>
       <Project Name="pass_by_ref" ConfigName="Release"/>
       <Project Name="scope" ConfigName="Release"/>
+      <Project Name="pointers_and_mem_alloc" ConfigName="Release"/>
+      <Project Name="test" ConfigName="Release"/>
+      <Project Name="OOP_basic" ConfigName="Release"/>
+      <Project Name="public_private" ConfigName="Release"/>
+      <Project Name="member_methods" ConfigName="Release"/>
+      <Project Name="member_methods_2" ConfigName="Release"/>
+      <Project Name="constructors_destructors" ConfigName="Release"/>
+      <Project Name="constructor_stuff" ConfigName="Release"/>
+      <Project Name="copy_constructors" ConfigName="Release"/>
+      <Project Name="shallow_copy" ConfigName="Release"/>
+      <Project Name="deep_copy" ConfigName="Release"/>
+      <Project Name="move_semantics" ConfigName="Release"/>
+      <Project Name="const_with_classes" ConfigName="Release"/>
+      <Project Name="static_members" ConfigName="Release"/>
+      <Project Name="structs_vs_classes" ConfigName="Release"/>
+      <Project Name="friends_of_a_class" ConfigName="Release"/>
+      <Project Name="challenge_13_movies" ConfigName="Release"/>
+      <Project Name="overloading_operators_member_functions" ConfigName="Release"/>
+      <Project Name="overloading_operators_global_non_member_functions" ConfigName="Release"/>
+      <Project Name="overloading_streams" ConfigName="Release"/>
+      <Project Name="inheritence_basic" ConfigName="Release"/>
+      <Project Name="ProtectedMembersClassAccess" ConfigName="Release"/>
+      <Project Name="inheritence_constructor_destructor" ConfigName="Release"/>
+      <Project Name="BaseClass_initialization" ConfigName="Release"/>
+      <Project Name="move_copy_constructor_inheritence" ConfigName="Release"/>
+      <Project Name="redefining_base_class_methods" ConfigName="Release"/>
+      <Project Name="polymorphism" ConfigName="Release"/>
+      <Project Name="base_class_ptrs_virtual_functions" ConfigName="Release"/>
+      <Project Name="using_override" ConfigName="Release"/>
+      <Project Name="final_specifier" ConfigName="Release"/>
+      <Project Name="base_class_references" ConfigName="Release"/>
+      <Project Name="abstract_pure_virtual_functions" ConfigName="Release"/>
+      <Project Name="abstract_classes_as_interface" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
