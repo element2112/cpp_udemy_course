@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ abstract_classes_as_interface - Debug ]----------"
-	@cd "abstract_classes_as_interface" && "$(MAKE)" -f  "abstract_classes_as_interface.mk"
+	@echo "----------Building project:[ smart_pointers_unique_pointers - Debug ]----------"
+	@cd "smart_pointers" && "$(MAKE)" -f  "smart_pointers_unique_pointers.mk"
 clean:
-	@echo "----------Cleaning project:[ abstract_classes_as_interface - Debug ]----------"
-	@cd "abstract_classes_as_interface" && "$(MAKE)" -f  "abstract_classes_as_interface.mk" clean
+	@echo "----------Cleaning project:[ smart_pointers_unique_pointers - Debug ]----------"
+	@cd "smart_pointers" && "$(MAKE)" -f  "smart_pointers_unique_pointers.mk" clean

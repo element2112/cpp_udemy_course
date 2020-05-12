@@ -27,11 +27,14 @@ int main()
     cout << "Second score " << test_scores.at(1) << endl;
     cout << "Third score " << test_scores.at(2) << endl;
     
+    cout << "Enter 5 scores " << endl;
+    
     cin >> test_scores.at(0);
     cin >> test_scores.at(1);
-//    cin >> test_scores.at(2);
-//    cin >> test_scores.at(3);
-//    cin >> test_scores.at(4);
+    cin >> test_scores.at(2);
+    cin >> test_scores.at(3);
+    cin >> test_scores.at(4);
+    
     test_scores.push_back(80);
     test_scores.push_back(100);
     cout << test_scores.at(5) << endl;
@@ -67,5 +70,7 @@ int main()
             cout << "Element: " << my_vect.at(i).at(j) << endl;
         }
     }
+    
+    return 0;
     
 }

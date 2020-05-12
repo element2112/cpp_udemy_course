@@ -5,15 +5,15 @@
 ## Debug
 ProjectName            :=abstract_classes_as_interface
 ConfigurationName      :=Debug
-WorkspacePath          :=C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace
-ProjectPath            :=C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/abstract_classes_as_interface
+WorkspacePath          :=C:/Users/bs009/Desktop/udemy_cpp/cpp_udemy_course
+ProjectPath            :=C:/Users/bs009/Desktop/udemy_cpp/cpp_udemy_course/abstract_classes_as_interface
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=torchgirl
-Date                   :=04/05/2020
+User                   :=bs009
+Date                   :=07/05/2020
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe"
 SharedObjectLinkerName :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe" -shared -fPIC
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/torchgirl/Desktop/udemy_cpp_tutorial_workspace/abstract_classes_as_interface/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/bs009/Desktop/udemy_cpp/cpp_udemy_course/abstract_classes_as_interface/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
