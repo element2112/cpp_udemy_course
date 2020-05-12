@@ -46,7 +46,8 @@
   <Project Name="base_class_references" Path="base_class_references/base_class_references.project" Active="No"/>
   <Project Name="abstract_pure_virtual_functions" Path="pure_virtual_function/pure_virtual_function.project" Active="No"/>
   <Project Name="abstract_classes_as_interface" Path="abstract_classes_as_interface/abstract_classes_as_interface.project" Active="No"/>
-  <Project Name="smart_pointers_unique_pointers" Path="smart_pointers/smart_pointers.project" Active="Yes"/>
+  <Project Name="smart_pointers_unique_pointers" Path="smart_pointers/smart_pointers.project" Active="No"/>
+  <Project Name="shared_pointers" Path="shared_pointers/shared_pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -97,6 +98,7 @@
       <Project Name="abstract_pure_virtual_functions" ConfigName="Debug"/>
       <Project Name="abstract_classes_as_interface" ConfigName="Debug"/>
       <Project Name="smart_pointers_unique_pointers" ConfigName="Debug"/>
+      <Project Name="shared_pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -147,6 +149,7 @@
       <Project Name="abstract_pure_virtual_functions" ConfigName="Release"/>
       <Project Name="abstract_classes_as_interface" ConfigName="Release"/>
       <Project Name="smart_pointers_unique_pointers" ConfigName="Release"/>
+      <Project Name="shared_pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
