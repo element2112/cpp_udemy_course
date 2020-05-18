@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ custom_deleter_for_shared_ptrs - Debug ]----------"
-	@cd "custom_deleter_for_shared_ptrs" && "$(MAKE)" -f  "custom_deleter_for_shared_ptrs.mk"
+	@echo "----------Building project:[ exception_handling_2 - Debug ]----------"
+	@cd "exception_handling_2" && "$(MAKE)" -f  "exception_handling_2.mk"
 clean:
-	@echo "----------Cleaning project:[ custom_deleter_for_shared_ptrs - Debug ]----------"
-	@cd "custom_deleter_for_shared_ptrs" && "$(MAKE)" -f  "custom_deleter_for_shared_ptrs.mk" clean
+	@echo "----------Cleaning project:[ exception_handling_2 - Debug ]----------"
+	@cd "exception_handling_2" && "$(MAKE)" -f  "exception_handling_2.mk" clean

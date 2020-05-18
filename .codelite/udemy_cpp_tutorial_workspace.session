@@ -1,19 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\bs009\Desktop\udemy_cpp\cpp_udemy_course\udemy_cpp_tutorial_workspace.workspace">
+<Session Name="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\udemy_cpp_tutorial_workspace.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\bs009\Desktop\udemy_cpp\cpp_udemy_course\udemy_cpp_tutorial_workspace.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray">
-    <TabInfo>
-      <wxString Value="C:\Users\bs009\Desktop\udemy_cpp\cpp_udemy_course\vectors\main.cpp" Name="FileName"/>
-      <int Value="18" Name="FirstVisibleLine"/>
-      <int Value="30" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-  </TabInfoArray>
+  <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\udemy_cpp_tutorial_workspace.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray"/>
   <SerializedObject Name="m_breakpoints">
-    <long Value="14" Name="Count"/>
+    <long Value="16" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
+      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\base_class_references\main.cpp" Name="file"/>
+      <int Value="52" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <int Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
+    <SerializedObject Name="Breakpoint1">
+      <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\base_class_references\main.cpp" Name="file"/>
+      <int Value="71" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <int Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
+    <SerializedObject Name="Breakpoint2">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\deep_copy\main.cpp" Name="file"/>
       <int Value="48" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -29,7 +53,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint1">
+    <SerializedObject Name="Breakpoint3">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\inheritence_constructor_destructor\main.cpp" Name="file"/>
       <int Value="37" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -45,7 +69,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint2">
+    <SerializedObject Name="Breakpoint4">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="14" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -61,7 +85,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint3">
+    <SerializedObject Name="Breakpoint5">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="19" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -77,7 +101,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint4">
+    <SerializedObject Name="Breakpoint6">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="24" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -93,7 +117,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint5">
+    <SerializedObject Name="Breakpoint7">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="35" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -109,7 +133,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint6">
+    <SerializedObject Name="Breakpoint8">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="44" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -125,7 +149,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint7">
+    <SerializedObject Name="Breakpoint9">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="49" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -141,7 +165,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint8">
+    <SerializedObject Name="Breakpoint10">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="54" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -157,7 +181,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint9">
+    <SerializedObject Name="Breakpoint11">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="73" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -173,7 +197,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint10">
+    <SerializedObject Name="Breakpoint12">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="85" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -189,7 +213,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint11">
+    <SerializedObject Name="Breakpoint13">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\move_copy_constructor_inheritence\main.cpp" Name="file"/>
       <int Value="9" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -205,7 +229,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint12">
+    <SerializedObject Name="Breakpoint14">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\pointers\references.cpp" Name="file"/>
       <int Value="17" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
@@ -221,7 +245,7 @@
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
-    <SerializedObject Name="Breakpoint13">
+    <SerializedObject Name="Breakpoint15">
       <wxString Value="C:\Users\torchgirl\Desktop\udemy_cpp_tutorial_workspace\static_members\main.cpp" Name="file"/>
       <int Value="11" Name="lineno"/>
       <wxString Value="" Name="function_name"/>

@@ -49,7 +49,9 @@
   <Project Name="smart_pointers_unique_pointers" Path="smart_pointers/smart_pointers.project" Active="No"/>
   <Project Name="shared_pointers" Path="shared_pointers/shared_pointers.project" Active="No"/>
   <Project Name="weak_pointers" Path="weak_pointers/weak_pointers.project" Active="No"/>
-  <Project Name="custom_deleter_for_shared_ptrs" Path="custom_deleter_for_shared_ptrs/custom_deleter_for_shared_ptrs.project" Active="Yes"/>
+  <Project Name="custom_deleter_for_shared_ptrs" Path="custom_deleter_for_shared_ptrs/custom_deleter_for_shared_ptrs.project" Active="No"/>
+  <Project Name="exception_handling_1" Path="exception_handling/exception_handling.project" Active="No"/>
+  <Project Name="exception_handling_2" Path="exception_handling_2/exception_handling_2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -103,6 +105,8 @@
       <Project Name="shared_pointers" ConfigName="Debug"/>
       <Project Name="weak_pointers" ConfigName="Debug"/>
       <Project Name="custom_deleter_for_shared_ptrs" ConfigName="Debug"/>
+      <Project Name="exception_handling_1" ConfigName="Debug"/>
+      <Project Name="exception_handling_2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -156,6 +160,8 @@
       <Project Name="shared_pointers" ConfigName="Release"/>
       <Project Name="weak_pointers" ConfigName="Release"/>
       <Project Name="custom_deleter_for_shared_ptrs" ConfigName="Release"/>
+      <Project Name="exception_handling_1" ConfigName="Release"/>
+      <Project Name="exception_handling_2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
