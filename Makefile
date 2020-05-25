@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ stream_manipulators_align_and_fill - Debug ]----------"
-	@cd "stream_manipulators_align_and_fill" && "$(MAKE)" -f  "stream_manipulators_align_and_fill.mk"
+	@echo "----------Building project:[ files_reading_from_txt_3 - Debug ]----------"
+	@cd "files_reading_from_txt_3" && "$(MAKE)" -f  "files_reading_from_txt_3.mk"
 clean:
-	@echo "----------Cleaning project:[ stream_manipulators_align_and_fill - Debug ]----------"
-	@cd "stream_manipulators_align_and_fill" && "$(MAKE)" -f  "stream_manipulators_align_and_fill.mk" clean
+	@echo "----------Cleaning project:[ files_reading_from_txt_3 - Debug ]----------"
+	@cd "files_reading_from_txt_3" && "$(MAKE)" -f  "files_reading_from_txt_3.mk" clean
