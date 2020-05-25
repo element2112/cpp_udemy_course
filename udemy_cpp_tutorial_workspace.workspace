@@ -55,7 +55,8 @@
   <Project Name="stream_manipulators" Path="streams_files_IO/streams_files_IO.project" Active="No"/>
   <Project Name="stream_manipulators_align_and_fill" Path="stream_manipulators_align_and_fill/stream_manipulators_align_and_fill.project" Active="No"/>
   <Project Name="files_reading_from_txt" Path="reading_from_txt/reading_from_txt.project" Active="No"/>
-  <Project Name="files_reading_from_txt_3" Path="files_reading_from_txt_3/files_reading_from_txt_3.project" Active="Yes"/>
+  <Project Name="files_reading_from_txt_3" Path="files_reading_from_txt_3/files_reading_from_txt_3.project" Active="No"/>
+  <Project Name="files_writing_to_txt" Path="files_writing_to_txt/files_writing_to_txt.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -116,6 +117,7 @@
       <Project Name="stream_manipulators_align_and_fill" ConfigName="Debug"/>
       <Project Name="files_reading_from_txt" ConfigName="Debug"/>
       <Project Name="files_reading_from_txt_3" ConfigName="Debug"/>
+      <Project Name="files_writing_to_txt" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -176,6 +178,7 @@
       <Project Name="stream_manipulators_align_and_fill" ConfigName="Release"/>
       <Project Name="files_reading_from_txt" ConfigName="Release"/>
       <Project Name="files_reading_from_txt_3" ConfigName="Release"/>
+      <Project Name="files_writing_to_txt" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
