@@ -51,7 +51,8 @@
   <Project Name="weak_pointers" Path="weak_pointers/weak_pointers.project" Active="No"/>
   <Project Name="custom_deleter_for_shared_ptrs" Path="custom_deleter_for_shared_ptrs/custom_deleter_for_shared_ptrs.project" Active="No"/>
   <Project Name="exception_handling_1" Path="exception_handling/exception_handling.project" Active="No"/>
-  <Project Name="exception_handling_2" Path="exception_handling_2/exception_handling_2.project" Active="Yes"/>
+  <Project Name="exception_handling_2" Path="exception_handling_2/exception_handling_2.project" Active="No"/>
+  <Project Name="stream_manipulators" Path="streams_files_IO/streams_files_IO.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -107,6 +108,8 @@
       <Project Name="custom_deleter_for_shared_ptrs" ConfigName="Debug"/>
       <Project Name="exception_handling_1" ConfigName="Debug"/>
       <Project Name="exception_handling_2" ConfigName="Debug"/>
+      <Project Name="exceptions_class_level" ConfigName="Debug"/>
+      <Project Name="stream_manipulators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -162,6 +165,8 @@
       <Project Name="custom_deleter_for_shared_ptrs" ConfigName="Release"/>
       <Project Name="exception_handling_1" ConfigName="Release"/>
       <Project Name="exception_handling_2" ConfigName="Release"/>
+      <Project Name="exceptions_class_level" ConfigName="Release"/>
+      <Project Name="stream_manipulators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
