@@ -56,7 +56,10 @@
   <Project Name="stream_manipulators_align_and_fill" Path="stream_manipulators_align_and_fill/stream_manipulators_align_and_fill.project" Active="No"/>
   <Project Name="files_reading_from_txt" Path="reading_from_txt/reading_from_txt.project" Active="No"/>
   <Project Name="files_reading_from_txt_3" Path="files_reading_from_txt_3/files_reading_from_txt_3.project" Active="No"/>
-  <Project Name="files_writing_to_txt" Path="files_writing_to_txt/files_writing_to_txt.project" Active="Yes"/>
+  <Project Name="files_writing_to_txt" Path="files_writing_to_txt/files_writing_to_txt.project" Active="No"/>
+  <Project Name="string_streams" Path="string_streams/string_streams.project" Active="No"/>
+  <Project Name="standard_template_library_1" Path="standard_template_library_1/standard_template_library_1.project" Active="No"/>
+  <Project Name="stl_generics_templates" Path="stl_generics_templates/stl_generics_templates.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -118,6 +121,9 @@
       <Project Name="files_reading_from_txt" ConfigName="Debug"/>
       <Project Name="files_reading_from_txt_3" ConfigName="Debug"/>
       <Project Name="files_writing_to_txt" ConfigName="Debug"/>
+      <Project Name="string_streams" ConfigName="Debug"/>
+      <Project Name="standard_template_library_1" ConfigName="Debug"/>
+      <Project Name="stl_generics_templates" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -179,6 +185,9 @@
       <Project Name="files_reading_from_txt" ConfigName="Release"/>
       <Project Name="files_reading_from_txt_3" ConfigName="Release"/>
       <Project Name="files_writing_to_txt" ConfigName="Release"/>
+      <Project Name="string_streams" ConfigName="Release"/>
+      <Project Name="standard_template_library_1" ConfigName="Release"/>
+      <Project Name="stl_generics_templates" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
