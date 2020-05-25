@@ -59,7 +59,9 @@
   <Project Name="files_writing_to_txt" Path="files_writing_to_txt/files_writing_to_txt.project" Active="No"/>
   <Project Name="string_streams" Path="string_streams/string_streams.project" Active="No"/>
   <Project Name="standard_template_library_1" Path="standard_template_library_1/standard_template_library_1.project" Active="No"/>
-  <Project Name="stl_generics_templates" Path="stl_generics_templates/stl_generics_templates.project" Active="Yes"/>
+  <Project Name="stl_generics_templates" Path="stl_generics_templates/stl_generics_templates.project" Active="No"/>
+  <Project Name="stl_class_template" Path="stl_class_template/stl_class_template.project" Active="Yes"/>
+  <Project Name="stl_class_template_array" Path="stl_class_template_array/stl_class_template_array.project"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -124,6 +126,8 @@
       <Project Name="string_streams" ConfigName="Debug"/>
       <Project Name="standard_template_library_1" ConfigName="Debug"/>
       <Project Name="stl_generics_templates" ConfigName="Debug"/>
+      <Project Name="stl_class_template" ConfigName="Debug"/>
+      <Project Name="stl_class_template_array" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -188,6 +192,8 @@
       <Project Name="string_streams" ConfigName="Release"/>
       <Project Name="standard_template_library_1" ConfigName="Release"/>
       <Project Name="stl_generics_templates" ConfigName="Release"/>
+      <Project Name="stl_class_template" ConfigName="Release"/>
+      <Project Name="stl_class_template_array" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
